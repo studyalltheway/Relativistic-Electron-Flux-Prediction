@@ -1,0 +1,100 @@
+#              ************************************
+#              *****    GLOBAL ATTRIBUTES    ******
+#              ************************************
+#
+#     PROJECT                         NOAA/GOES
+#     SOURCE_NAME                     GOES13
+#     DISCIPLINE                      Space Physics>Magnetospheric Science
+#     DATA_TYPE                       1min
+#     DESCRIPTOR                      epead-science-electrons-e13ew>Energetic Proton Electron and Alpha Detector Reprocessed
+#                                      Electron Fluxes for Science Use
+#     FILE_NAMING_CONVENTION          source_descriptor_datatype_yyyyMMdd
+#     DATA_VERSION                    01
+#     PI_NAME                         NOAA NGDC and SWPC
+#     PI_AFFILIATION                  sem.goes@noaa.gov
+#     TEXT                            Data has been recast from original NOAA netCDF files by SPDF. DATA CAVEATS/WARNINGS:integral
+#     TEXT                             electron flux corrected and flagged using complete set of Sauer coefficients
+#     TEXT                             and flagged when data are bad due to solar proton contamination; channel E3
+#                                      not included in this version.
+#     INSTRUMENT_TYPE                 Particles (space)
+#     MISSION_GROUP                   GOES
+#     LOGICAL_SOURCE                  goes13_epead-science-electrons-e13ew_1min
+#     LOGICAL_FILE_ID                 goes13_epead-science-electrons-e13ew_1min_00000000_v01
+#     LOGICAL_SOURCE_DESCRIPTION      GOES Energetic Proton Electron and Alpha Detector Electron Fluxes reprocessed
+#                                      for scientific use
+#     GENERATION_DATE                 Mon Feb  1 09:07:48 2016
+#     LINK_TEXT                       Primary GOES
+#     LINK_TITLE                      archive and instrument documentation at NOAA National Geophysical Data Center
+#                                      (NGDC)
+#     HTTP_LINK                       http://www.ngdc.noaa.gov/stp/satellite/goes/index.html
+#     DIMENSIONS_G                    record=UNLIMITED
+#     GOES_SATELLITE                  13
+#     VERSION                         1.0.0
+#     VERSION_DESCRIPTION             language = IDL; integral electron flux corrected and flagged using complete
+#     VERSION_DESCRIPTION              set of Sauer coefficients and flagged when data are bad due to solar proton
+#                                      contamination; channel E3 not included in this version.
+#     CONVENTIONS                     GOES Space Weather
+#     TITLE                           GOES Energetic Proton Electron and Alpha Detector science Electron Fluxes
+#     INSTITUTION                     NOAA
+#     SOURCE                          Satellite in situ Observations
+#     SATELLITE_ID                    GOES-13
+#     INSTRUMENT                      EPEAD
+#     PROCESS_TYPE                    1-minute Averages
+#     PROCESS_LEVEL                   Level 2
+#     SAMPLE_TIME                     60
+#     SAMPLE_UNIT                     seconds
+#     CREATION_DATE                   2016-02-01 10:15:02.000 UTC
+#     START_DATE                      2016-01-01 00:00:00.000 UTC
+#     END_DATE                        2016-01-31 23:59:00.000 UTC
+#     RECORDS_MAXIMUM                 44640
+#     RECORDS_PRESENT                 44640
+#     RECORDS_MISSING                 0
+#     ORIGINATING_AGENCY              DOC/NOAA/NESDIS/NGDC
+#     ARCHIVING_AGENCY                DOC/NOAA/NESDIS/NGDC
+#     SPASE_DATASETRESOURCEID         spase://NOAA/NumericalData/GOES/13/EPS/EPEAD/E13EW/PT1M
+#     CDFMAJOR                        COL_MAJOR
+#
+#              ************************************
+#              ****  RECORD VARYING VARIABLES  ****
+#              ************************************
+#
+#  1. Default time
+#  2. A/W Detector: Electron integral flux E1 >0.8 MeV (background, contamination and dead time corrected)
+#  3. ---> B/E Detector
+#  4. A/W Detector: Electron integral flux E2 >2 MeV (background, contamination and dead time corrected)
+#  5. ---> B/E Detector
+#
+EPOCH                       E1A_FXC(>.8_MEV) E1B_FXC(>.8_MEV) E2A_FXC(>2_MEV) E2B_FXC(>2_MEV)
+dd-mm-yyyy hh:mm:ss.mil.mic    e/(cm^2_s_sr)    e/(cm^2_s_sr)   e/(cm^2_s_sr)   e/(cm^2_s_sr)
+01-01-2016 00:00:00.000.000          228.796          300.279        -99999.0        -99999.0
+01-01-2016 00:01:00.000.000          77.4093          99.9324        -99999.0        -99999.0
+01-01-2016 00:02:00.000.000          53.3577          61.7177        -99999.0        -99999.0
+01-01-2016 00:03:00.000.000          45.9845          53.8206        -99999.0        -99999.0
+01-01-2016 00:04:00.000.000          51.5388          58.2284        -99999.0        -99999.0
+01-01-2016 00:05:00.000.000          66.1707          80.0145        -99999.0        -99999.0
+01-01-2016 00:06:00.000.000          39.8495          46.7326        -99999.0        -99999.0
+01-01-2016 00:07:00.000.000          85.0603          93.4397        -99999.0        -99999.0
+01-01-2016 00:08:00.000.000          109.491          118.751        -99999.0        -99999.0
+01-01-2016 00:09:00.000.000          111.740          130.298        -99999.0        -99999.0
+01-01-2016 00:10:00.000.000          106.322          136.044        -99999.0        -99999.0
+01-01-2016 00:11:00.000.000          79.9442          113.771        -99999.0        -99999.0
+01-01-2016 00:12:00.000.000          110.378          127.442        -99999.0        -99999.0
+01-01-2016 00:13:00.000.000          119.635          140.866        -99999.0        -99999.0
+01-01-2016 00:14:00.000.000          109.450          127.442        -99999.0        -99999.0
+01-01-2016 00:15:00.000.000          78.8886          88.9747        -99999.0        -99999.0
+01-01-2016 00:16:00.000.000          51.6016          59.7147        -99999.0        -99999.0
+01-01-2016 00:17:00.000.000          73.6689          87.3669        -99999.0        -99999.0
+01-01-2016 00:18:00.000.000          80.5042          92.3047        -99999.0        -99999.0
+01-01-2016 00:19:00.000.000          83.3252          98.8121        -99999.0        -99999.0
+01-01-2016 00:20:00.000.000          71.7306          87.3403        -99999.0        -99999.0
+01-01-2016 00:21:00.000.000          79.2755          93.4189        -99999.0        -99999.0
+01-01-2016 00:22:00.000.000          84.1272          104.063        -99999.0        -99999.0
+01-01-2016 00:23:00.000.000          79.4526          97.0399        -99999.0        -99999.0
+01-01-2016 00:24:00.000.000          34.7876          42.5134        -99999.0        -99999.0
+01-01-2016 00:25:00.000.000          5.51037          5.38132        -99999.0        -99999.0
+01-01-2016 00:26:00.000.000          5.41937          9.25548        -99999.0        -99999.0
+01-01-2016 00:27:00.000.000          15.7645          20.9532        -99999.0        -99999.0
+01-01-2016 00:28:00.000.000          24.0111          29.6827        -99999.0        -99999.0
+01-01-2016 00:29:00.000.000          22.6268          28.4688        -99999.0        -99999.0
+01-01-2016 00:30:00.000.000          15.3561          18.9132        -99999.0        -99999.0
+01-01-2016 00:31:00.000.000          102.521          123.350        -99999.0        -99999.0
