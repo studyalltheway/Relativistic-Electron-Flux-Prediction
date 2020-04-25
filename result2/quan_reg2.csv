@@ -1,0 +1,1 @@
+run_num,tau_range,seed,pterm,num_in,epochs,batchsize,learnrate,reg1,reg2,node1,node2,trloss,teloss,shloss,showrate1,showrate2,showrate3
