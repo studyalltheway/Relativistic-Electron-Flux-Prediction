@@ -13,3 +13,5 @@ The "train", "test", "show" in the programs means train set, validation set, and
 
 # How to use?
 Firstly, set the hyperparameters of the neural network in config.py. Secondly, run the model (For example, run FFN_model.py) . The model result will be recorded in the log file in the folder "/result2". Thirdly, check the result in the log file. (The detailed information of different models can be found in the project structure file README(project structure).PNG)
+
+If you have any questions, please contact me through zhanghui_skysee@pku.edu.cn
